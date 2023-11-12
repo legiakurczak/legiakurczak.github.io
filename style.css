@@ -8,5 +8,45 @@ body{
 }
 
 .legia{
-    width: 20%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
+
+.legia-png{
+    width: 50%;
+}
+
+@keyframes color-animation {
+    0% {
+       background: #008538;
+    }
+    50% {
+       background: #fff;
+    } 
+    100% {
+       background: #d1070f
+    }
+ }
+
+ .colorAnimation{
+    animation: color-animation 1s infinite linear alternate;
+ }
+
+ .kurczak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+
+ .legianapis{
+    width: 100%;
+ }
+
+ .legiakurczak{
+    width: 60%;
+ }
