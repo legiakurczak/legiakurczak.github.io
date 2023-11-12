@@ -1,8 +1,12 @@
 $(document).ready(function(){
-    $(".kurczak").hide()
     $(".legia-png").click(function(){
         $("body").addClass("colorAnimation")
         $(".legia-png").hide()
-        $(".kurczak").show()
+        $(".legia").append(`
+        <div class="kurczak">
+            <img class="legiakurczak" src="res/kurczepieczone.gif" alt="">
+            <img class="legianapis" src="res/legia.gif" alt="">
+        </div>
+        `)
     })
 })
